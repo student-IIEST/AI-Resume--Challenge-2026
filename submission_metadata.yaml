@@ -1,0 +1,85 @@
+# ============================================================================
+# Team identity
+# ============================================================================
+
+team_name: "Renu"
+
+primary_contact:
+  name: "Renu Kumari"
+  email: "renu82092@gmail.com"
+  phone: "8209268197"
+
+team_members:
+  - name: "Renu"
+    email: "renu82092@gmail.com"
+    role: "Solo Participant"
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+
+github_repo: "https://github.com/student-IIEST/AI-Resume--Challenge-2026"
+
+sandbox_link: "To be added"
+
+reproduce_command: "python rank.py"
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+
+compute:
+  platform: "Windows Laptop"
+  cpu_cores: 4
+  ram_gb: 16
+  python_version: "3.x"
+  os: "Windows 11"
+  uses_gpu_for_inference: false
+  has_network_during_ranking: false
+  pre_computation_required: false
+  pre_computation_time_minutes: 0
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+
+ai_tools_used:
+  - "ChatGPT"
+
+ai_usage_summary: |
+  ChatGPT was used to assist with Python debugging, code improvement,
+  project documentation, and ranking logic refinement.
+  All testing, execution, validation, and final submission preparation
+  were performed by me.
+
+# ============================================================================
+# Approach summary
+# ============================================================================
+
+methodology_summary: |
+  This project implements a rule-based AI candidate ranking system for the
+  Redrob Intelligent Candidate Discovery Challenge.
+
+  Each candidate is evaluated using multiple scoring factors including:
+  - Years of experience
+  - Current job title
+  - AI/ML related technical skills
+  - Career history keyword matching
+  - Current company preference
+  - Open-to-work status
+  - Notice period
+
+  After calculating scores for all candidates, the system ranks every
+  candidate, selects the Top 100 candidates, and automatically generates
+  the required submission.csv file.
+
+# ============================================================================
+# Declarations
+# ============================================================================
+
+declarations:
+  read_submission_spec: true
+  code_is_original_work: true
+  no_collusion: true
+  honeypot_check_done: false
+  reproduction_tested: true
